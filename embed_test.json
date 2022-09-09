@@ -1,0 +1,449 @@
+{
+    "type": "@webflow/XscpData",
+    "payload": {
+        "nodes": [
+            {
+                "_id": "23825a5b-b1c6-2b4a-95d7-ec511e82ddb1",
+                "tag": "div",
+                "classes": [
+                    "9425ecb6-b4e6-dcfc-90c8-f9aea9b77041"
+                ],
+                "children": [
+                    "23825a5b-b1c6-2b4a-95d7-ec511e82ddc2",
+                    "23825a5b-b1c6-2b4a-95d7-ec511e82ddc7"
+                ],
+                "type": "Block",
+                "data": {
+                    "tag": "div",
+                    "text": false
+                }
+            },
+            {
+                "_id": "23825a5b-b1c6-2b4a-95d7-ec511e82ddc7",
+                "tag": "div",
+                "classes": [
+                    "c5240dc6-c867-071a-88c3-26c68da628ad"
+                ],
+                "children": [
+                    "23825a5b-b1c6-2b4a-95d7-ec511e82ddd6"
+                ],
+                "type": "Block",
+                "data": {
+                    "tag": "div",
+                    "text": false
+                }
+            },
+            {
+                "_id": "23825a5b-b1c6-2b4a-95d7-ec511e82ddd6",
+                "tag": "iframe",
+                "classes": [
+                    "b0934d9a-875a-bb42-0630-12090a77fc57"
+                ],
+                "children": [],
+                "type": "Iframe",
+                "data": {
+                    "attr": {
+                        "src": "https://mnaus.me/"
+                    }
+                }
+            },
+            {
+                "_id": "23825a5b-b1c6-2b4a-95d7-ec511e82ddc2",
+                "tag": "p",
+                "classes": [
+                    "c5240dc6-c867-071a-88c3-26c68da628ad"
+                ],
+                "children": [
+                    "23825a5b-b1c6-2b4a-95d7-ec511e82ddc3"
+                ],
+                "type": "Paragraph"
+            },
+            {
+                "_id": "23825a5b-b1c6-2b4a-95d7-ec511e82ddc3",
+                "text": true,
+                "v": "Webflow developers doubled leads generated on landing pages"
+            }
+        ],
+        "styles": [
+            {
+                "_id": "9425ecb6-b4e6-dcfc-90c8-f9aea9b77041",
+                "fake": false,
+                "type": "class",
+                "name": "section-stats1.6",
+                "namespace": "",
+                "comb": "",
+                "styleLess": "background-color: transparent;",
+                "variants": {},
+                "children": [],
+                "selector": null
+            }
+        ],
+        "assets": [],
+        "ix1": [],
+        "ix2": {
+            "interactions": [
+                {
+                    "id": "i-309",
+                    "interactionTypeId": "SCROLL_INTO_VIEW_INTERACTION",
+                    "eventIds": [
+                        "e-622",
+                        "e-623"
+                    ],
+                    "target": "629a1dfe2d1709a1ee1735ec|23825a5b-b1c6-2b4a-95d7-ec511e82ddb7",
+                    "createdOn": 1652248918839
+                },
+                {
+                    "id": "i-310",
+                    "interactionTypeId": "SCROLL_INTO_VIEW_INTERACTION",
+                    "eventIds": [
+                        "e-624",
+                        "e-625"
+                    ],
+                    "target": "629a1dfe2d1709a1ee1735ec|23825a5b-b1c6-2b4a-95d7-ec511e82ddc5",
+                    "createdOn": 1652248983428
+                }
+            ],
+            "events": [
+                {
+                    "id": "e-622",
+                    "name": "",
+                    "animationType": "custom",
+                    "eventTypeId": "SCROLL_INTO_VIEW",
+                    "action": {
+                        "id": "",
+                        "actionTypeId": "GENERAL_START_ACTION",
+                        "instant": true,
+                        "config": {
+                            "delay": 0,
+                            "easing": "",
+                            "duration": 0,
+                            "actionListId": "a-116",
+                            "affectedElements": {},
+                            "playInReverse": false,
+                            "autoStopEventId": "e-623"
+                        }
+                    },
+                    "mediaQueries": [
+                        "main",
+                        "medium",
+                        "small",
+                        "tiny"
+                    ],
+                    "target": {
+                        "id": "629a1dfe2d1709a1ee1735ec|23825a5b-b1c6-2b4a-95d7-ec511e82ddb7",
+                        "appliesTo": "ELEMENT",
+                        "styleBlockIds": []
+                    },
+                    "targets": [
+                        {
+                            "id": "629a1dfe2d1709a1ee1735ec|23825a5b-b1c6-2b4a-95d7-ec511e82ddb7",
+                            "appliesTo": "ELEMENT",
+                            "styleBlockIds": []
+                        }
+                    ],
+                    "config": {
+                        "loop": false,
+                        "playInReverse": false,
+                        "scrollOffsetValue": 0,
+                        "scrollOffsetUnit": "%",
+                        "delay": null,
+                        "direction": null,
+                        "effectIn": null
+                    },
+                    "createdOn": 1652248918840
+                },
+                {
+                    "id": "e-623",
+                    "name": "",
+                    "animationType": "preset",
+                    "eventTypeId": "SCROLL_OUT_OF_VIEW",
+                    "action": null,
+                    "mediaQueries": [
+                        "main",
+                        "medium",
+                        "small",
+                        "tiny"
+                    ],
+                    "target": {
+                        "id": "629a1dfe2d1709a1ee1735ec|23825a5b-b1c6-2b4a-95d7-ec511e82ddb7",
+                        "appliesTo": "ELEMENT",
+                        "styleBlockIds": []
+                    },
+                    "targets": [
+                        {
+                            "id": "629a1dfe2d1709a1ee1735ec|23825a5b-b1c6-2b4a-95d7-ec511e82ddb7",
+                            "appliesTo": "ELEMENT",
+                            "styleBlockIds": []
+                        }
+                    ],
+                    "config": {
+                        "loop": false,
+                        "playInReverse": false,
+                        "scrollOffsetValue": 0,
+                        "scrollOffsetUnit": "%",
+                        "delay": null,
+                        "direction": null,
+                        "effectIn": null
+                    },
+                    "createdOn": 1652248918842
+                },
+                {
+                    "id": "e-624",
+                    "name": "",
+                    "animationType": "custom",
+                    "eventTypeId": "SCROLL_INTO_VIEW",
+                    "action": {
+                        "id": "",
+                        "actionTypeId": "GENERAL_START_ACTION",
+                        "instant": true,
+                        "config": {
+                            "delay": 0,
+                            "easing": "",
+                            "duration": 0,
+                            "actionListId": "a-116",
+                            "affectedElements": {},
+                            "playInReverse": false,
+                            "autoStopEventId": "e-625"
+                        }
+                    },
+                    "mediaQueries": [
+                        "main",
+                        "medium",
+                        "small",
+                        "tiny"
+                    ],
+                    "target": {
+                        "id": "629a1dfe2d1709a1ee1735ec|23825a5b-b1c6-2b4a-95d7-ec511e82ddc5",
+                        "appliesTo": "CLASS",
+                        "styleBlockIds": [
+                            "9425ecb6-b4e6-dcfc-90c8-f9aea9b7703d"
+                        ]
+                    },
+                    "targets": [
+                        {
+                            "id": "629a1dfe2d1709a1ee1735ec|23825a5b-b1c6-2b4a-95d7-ec511e82ddc5",
+                            "appliesTo": "CLASS",
+                            "styleBlockIds": [
+                                "9425ecb6-b4e6-dcfc-90c8-f9aea9b7703d"
+                            ]
+                        }
+                    ],
+                    "config": {
+                        "loop": false,
+                        "playInReverse": false,
+                        "scrollOffsetValue": 0,
+                        "scrollOffsetUnit": "%",
+                        "delay": null,
+                        "direction": null,
+                        "effectIn": null
+                    },
+                    "createdOn": 1652248983429
+                },
+                {
+                    "id": "e-625",
+                    "name": "",
+                    "animationType": "preset",
+                    "eventTypeId": "SCROLL_OUT_OF_VIEW",
+                    "action": null,
+                    "mediaQueries": [
+                        "main",
+                        "medium",
+                        "small",
+                        "tiny"
+                    ],
+                    "target": {
+                        "id": "629a1dfe2d1709a1ee1735ec|23825a5b-b1c6-2b4a-95d7-ec511e82ddc5",
+                        "appliesTo": "CLASS",
+                        "styleBlockIds": [
+                            "9425ecb6-b4e6-dcfc-90c8-f9aea9b7703d"
+                        ]
+                    },
+                    "targets": [
+                        {
+                            "id": "629a1dfe2d1709a1ee1735ec|23825a5b-b1c6-2b4a-95d7-ec511e82ddc5",
+                            "appliesTo": "CLASS",
+                            "styleBlockIds": [
+                                "9425ecb6-b4e6-dcfc-90c8-f9aea9b7703d"
+                            ]
+                        }
+                    ],
+                    "config": {
+                        "loop": false,
+                        "playInReverse": false,
+                        "scrollOffsetValue": 0,
+                        "scrollOffsetUnit": "%",
+                        "delay": null,
+                        "direction": null,
+                        "effectIn": null
+                    },
+                    "createdOn": 1652248983431
+                }
+            ],
+            "actionLists": [
+                {
+                    "id": "a-116",
+                    "title": "course_item-anim",
+                    "actionItemGroups": [
+                        {
+                            "actionItems": [
+                                {
+                                    "id": "a-116-n",
+                                    "actionTypeId": "TRANSFORM_MOVE",
+                                    "config": {
+                                        "delay": 0,
+                                        "easing": "",
+                                        "duration": 500,
+                                        "target": {
+                                            "nodeId": "629a1dfe2d1709a1ee1735ec|23825a5b-b1c6-2b4a-95d7-ec511e82ddc8",
+                                            "appliesTo": "ELEMENT_CLASS",
+                                            "styleBlockIds": [
+                                                "9425ecb6-b4e6-dcfc-90c8-f9aea9b77040"
+                                            ],
+                                            "useEventTarget": "CHILDREN",
+                                            "boundaryMode": false
+                                        },
+                                        "yValue": 100,
+                                        "xUnit": "PX",
+                                        "yUnit": "%",
+                                        "zUnit": "PX"
+                                    },
+                                    "instant": false
+                                },
+                                {
+                                    "id": "a-116-n-2",
+                                    "actionTypeId": "TRANSFORM_MOVE",
+                                    "config": {
+                                        "delay": 0,
+                                        "easing": "",
+                                        "duration": 500,
+                                        "target": {
+                                            "nodeId": "629a1dfe2d1709a1ee1735ec|23825a5b-b1c6-2b4a-95d7-ec511e82ddcc",
+                                            "appliesTo": "ELEMENT_CLASS",
+                                            "styleBlockIds": [
+                                                "9425ecb6-b4e6-dcfc-90c8-f9aea9b7703c"
+                                            ],
+                                            "useEventTarget": "CHILDREN",
+                                            "boundaryMode": false
+                                        },
+                                        "yValue": 100,
+                                        "xUnit": "PX",
+                                        "yUnit": "%",
+                                        "zUnit": "PX"
+                                    },
+                                    "instant": false
+                                },
+                                {
+                                    "id": "a-116-n-3",
+                                    "actionTypeId": "TRANSFORM_MOVE",
+                                    "config": {
+                                        "delay": 0,
+                                        "easing": "",
+                                        "duration": 500,
+                                        "target": {
+                                            "nodeId": "629a1dfe2d1709a1ee1735ec|23825a5b-b1c6-2b4a-95d7-ec511e82ddd0",
+                                            "appliesTo": "ELEMENT_CLASS",
+                                            "styleBlockIds": [
+                                                "8f18aae8-7f67-221c-89cc-fb538e4425ba",
+                                                "9425ecb6-b4e6-dcfc-90c8-f9aea9b77042"
+                                            ],
+                                            "useEventTarget": "CHILDREN",
+                                            "boundaryMode": false
+                                        },
+                                        "yValue": 100,
+                                        "xUnit": "PX",
+                                        "yUnit": "%",
+                                        "zUnit": "PX"
+                                    },
+                                    "instant": false
+                                }
+                            ]
+                        },
+                        {
+                            "actionItems": [
+                                {
+                                    "id": "a-116-n-4",
+                                    "actionTypeId": "TRANSFORM_MOVE",
+                                    "config": {
+                                        "delay": 200,
+                                        "easing": "ease",
+                                        "duration": 800,
+                                        "target": {
+                                            "nodeId": "629a1dfe2d1709a1ee1735ec|23825a5b-b1c6-2b4a-95d7-ec511e82ddc8",
+                                            "appliesTo": "ELEMENT_CLASS",
+                                            "styleBlockIds": [
+                                                "9425ecb6-b4e6-dcfc-90c8-f9aea9b77040"
+                                            ],
+                                            "useEventTarget": "CHILDREN",
+                                            "boundaryMode": false
+                                        },
+                                        "yValue": 0,
+                                        "xUnit": "PX",
+                                        "yUnit": "%",
+                                        "zUnit": "PX"
+                                    },
+                                    "instant": false
+                                },
+                                {
+                                    "id": "a-116-n-5",
+                                    "actionTypeId": "TRANSFORM_MOVE",
+                                    "config": {
+                                        "delay": 200,
+                                        "easing": "ease",
+                                        "duration": 800,
+                                        "target": {
+                                            "nodeId": "629a1dfe2d1709a1ee1735ec|23825a5b-b1c6-2b4a-95d7-ec511e82ddcc",
+                                            "appliesTo": "ELEMENT_CLASS",
+                                            "styleBlockIds": [
+                                                "9425ecb6-b4e6-dcfc-90c8-f9aea9b7703c"
+                                            ],
+                                            "useEventTarget": "CHILDREN",
+                                            "boundaryMode": false
+                                        },
+                                        "yValue": 0,
+                                        "xUnit": "PX",
+                                        "yUnit": "%",
+                                        "zUnit": "PX"
+                                    },
+                                    "instant": false
+                                },
+                                {
+                                    "id": "a-116-n-6",
+                                    "actionTypeId": "TRANSFORM_MOVE",
+                                    "config": {
+                                        "delay": 200,
+                                        "easing": "ease",
+                                        "duration": 800,
+                                        "target": {
+                                            "nodeId": "629a1dfe2d1709a1ee1735ec|23825a5b-b1c6-2b4a-95d7-ec511e82ddd0",
+                                            "appliesTo": "ELEMENT_CLASS",
+                                            "styleBlockIds": [
+                                                "8f18aae8-7f67-221c-89cc-fb538e4425ba",
+                                                "9425ecb6-b4e6-dcfc-90c8-f9aea9b77042"
+                                            ],
+                                            "useEventTarget": "CHILDREN",
+                                            "boundaryMode": false
+                                        },
+                                        "yValue": 0,
+                                        "xUnit": "PX",
+                                        "yUnit": "%",
+                                        "zUnit": "PX"
+                                    },
+                                    "instant": false
+                                }
+                            ]
+                        }
+                    ],
+                    "useFirstGroupAsInitialState": true,
+                    "createdOn": 1652248922830
+                }
+            ]
+        }
+    },
+    "meta": {
+        "unlinkedSymbolCount": 0,
+        "droppedLinks": 0,
+        "dynBindRemovedCount": 0,
+        "dynListBindRemovedCount": 0,
+        "paginationRemovedCount": 0
+    }
+}
