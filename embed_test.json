@@ -43,7 +43,8 @@
                 "type": "Iframe",
                 "data": {
                     "attr": {
-                        "src": "https://mnaus.me/"
+                        "src": "https://dancing-gecko-da5113.netlify.app/test.html",
+                        "style": "width: 100%"
                     }
                 }
             },
